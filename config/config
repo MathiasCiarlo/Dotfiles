@@ -1,0 +1,3 @@
+Host uio
+	HostName login.ifi.uio.no
+	User mathiact
