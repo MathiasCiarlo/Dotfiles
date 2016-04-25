@@ -1,5 +1,5 @@
 # Load bash extras
-. .bashrc_extras
+. ~/dev/dotfiles/.bashrc_extra
 
 # Emacs
 alias vi='emacs -nw'
