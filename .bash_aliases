@@ -1,3 +1,6 @@
+# Load bash extras
+. .bashrc_extras
+
 # Emacs
 alias vi='emacs -nw'
 alias vim='emacs -nw'
