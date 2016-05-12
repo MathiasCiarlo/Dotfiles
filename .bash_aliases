@@ -1,6 +1,11 @@
 # Load bash extras
 . ~/dev/dotfiles/.bashrc_extra
 
+# Load custom aliases
+if [ -f ~/dev/dotfiles/.custom_aliases ]; then
+    . ~/dev/dotfiles/.custom_aliases
+fi
+
 # Emacs
 alias vi='emacs -nw'
 alias vim='emacs -nw'
